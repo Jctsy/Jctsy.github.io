@@ -3,18 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>main page</title>
+    <title>INDEX</title>
     <style>
-        img{
-            width: 300px;
+        body{
+            text-align: center;
+        }
+        .bg{
+            background: url(images/HelloWorld.png) no-repeat;
+            background-position: center;
+            background-size:cover;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0px;
+            opacity: 0.1;
+        }
+        .content{
+            position: relative;
+            z-index:1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        span{
+            font-weight: bold;
+            display: block;
+            margin: 10px auto; 
+            cursor: pointer;
+        }
+
+        .language, .program{
             height: 200px;
+        }
+
+        .middle{
+            margin: 90px 0;
+            float: left;
+            height: 20px;
+        }
+        .middle a{
+            font-size: 12px;
+            display: inline-block;
+            text-decoration: none;
+            color: #c2c7cc;
+            transition: all .3s;
+        }
+        .middle a:hover{
+            color: #333;
+            /* font-size: 18px; */
+            transform: scale(1.8);
+            transition: all .3s;
         }
     </style>
 </head>
 <body>
-    <p>Hello World</p>
-    <strong>你好 世界</strong>
-    <a href="begin/动手实践.html"></a>
-    <img src="images/HelloWorld.png" alt="">
+    <div class="content">
+        <div class="language">
+            <span title="English">Hello World</span>
+            <span title="Chinese">你好 世界</span>
+            <span title="Russian">Привет, мир</span>
+            <span title="French">Bonjour, monde</span>
+            <span title="German">Hallo, Welt</span>
+            <span title="Japanese">こんにちは、世界</span>
+        </div>
+        
+        <div class="middle">
+            <a 
+                href="begin/动手实践.html" 
+                title="click to my first webpage"
+                >点击跳转到自己做的第一个网页那里
+            </a>
+        </div>
+
+        <div class="program">
+            <span title="Java">System.out.println("Hello World");</span>
+            <span title="Python">print("Hello World")</span>
+            <span title="JavaScript">console.log('Hello World')</span>
+        </div>
+
+    </div>
+    
+    <div class="bg"></div>
 </body>
 </html>
