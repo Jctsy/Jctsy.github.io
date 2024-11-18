@@ -2,5 +2,4 @@
 *.jpg
 *.png
 *.gif
-# 忽略整个文件夹
-images/
+
