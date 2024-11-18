@@ -4,6 +4,7 @@
 在两年前，我注册了这个Github账号，但仅限于注册，不会使用网站上面的任何一个功能，甚至follow自己喜欢的大佬，两年后，也就是现在，迫于一些原因吧，想抓起这个GitHub帐号了，去创建了自己的第一个project，去开发一个网站--个人博客，记录自己的碎碎念、记录自己所学到的技术，以及记录自己的成长，在前端学习方面的。
 ### translate by English
 Two years ago, I registered for this GitHub account, but only for registration purposes. I won't use any of the website's features or even follow my favorite influencers. Two years later, due to some reasons, I want to seize this GitHub account and create my first project to develop a website - a personal blog. I will record my thoughts, skills, and growth in the front-end learning aspect. 
+
 ---2024.11.18
   行了 继续写点吧，至于上面的就先保留着吧
 消失的这段时间在学习Vue框架和Uniapp，目前Vue2和3都学完了 但是不确定自己是否有能力去完成一个项目，其实一直有个搭建个人博客的想法的，可惜技术不成熟，目前尚且如此，不过如果搭建一个纯静态的页面 对我来说 目前应该是问题不大，但是，咱的审美属实是不到位，因此也一直没搭建出来
