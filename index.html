@@ -5,61 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDEX</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
             text-align: center;
+            background-color: #fafafa;
         }
         .bg{
             background: url(images/HelloWorld.png) no-repeat;
             background-position: center;
-            background-size:cover;
+            background-size:1920px 1080px;
             width: 100%;
             position: absolute;
-            top: 0;
+            top: 400px;
             left: 0;
             right: 0;
             bottom: 0px;
             opacity: 0.1;
         }
         .content{
-            position: relative;
-            z-index:1;
             display: flex;
-            flex-direction: column;
-        }
-        
-        span{
-            font-weight: bold;
-            display: block;
-            margin: 10px auto; 
+            flex-direction: column;    
+            position: relative;       
+        }  
+        .content .Ylnx{
+            position: relative;
+            text-align: center;
+            text-align: center;
+            transition: all .3s;
+            opacity: .8;
+            margin-top: 10px;
             cursor: pointer;
+        } 
+        .content .Ylnx img{
+            height: 270px;
+            width: 480px;
         }
-
-        .language, .program{
-            height: 200px;
+        span{
+            font-weight: 500;
+            display: block;
+            margin: 1.8px auto; 
+            cursor: pointer;
+            font-size: 20px;
         }
-
-        .middle{
-            margin: 90px 0;
-            float: left;
-            height: 20px;
-        }
-        .middle a{
-            font-size: 12px;
+        .footer a{
+            font-size: 16px;
             display: inline-block;
             text-decoration: none;
             color: #c2c7cc;
             transition: all .3s;
         }
-        .middle a:hover{
+        .footer a:hover {
             color: #333;
-            /* font-size: 18px; */
             transform: scale(1.8);
             transition: all .3s;
         }
     </style>
 </head>
 <body>
+    <!-- HelloWorld背景图 -->
+    <div class="bg"></div>
+
+    <!-- 文章主体部分 -->
     <div class="content">
+        <div class="Ylnx">
+            <img title="TomoriNao | 友利奈绪 | ともり なお" src="images/TomoriNao.jpg" alt="">
+        </div>
         <div class="language">
             <span title="English">Hello World</span>
             <span title="Chinese">你好 世界</span>
@@ -68,23 +81,17 @@
             <span title="German">Hallo, Welt</span>
             <span title="Japanese">こんにちは、世界</span>
         </div>
-        
-        <div class="middle">
-            <a 
-                href="begin/动手实践.html" 
-                title="click to my first webpage"
-                >点击跳转到自己做的第一个网页那里
-            </a>
-        </div>
-
+        <br><br>
         <div class="program">
             <span title="Java">System.out.println("Hello World");</span>
             <span title="Python">print("Hello World")</span>
             <span title="JavaScript">console.log('Hello World')</span>
         </div>
-
+        <div class="footer">
+            <a href="begin/动手实践.html" title="click to my first webpage">点击跳转到自己做的第一个网页那里</a>
+        </div>
     </div>
     
-    <div class="bg"></div>
+
 </body>
 </html>
