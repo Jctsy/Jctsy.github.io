@@ -5,8 +5,3 @@
 
 In order to improve my web skills, I created this project to record what I have learned. 
 Later, I will gradually add things to the webpage to build it into a blog website.
-<<<<<<< HEAD
-```
-=======
-```
->>>>>>> 41db6495c5207e82a74e3f5270fa139e701d3d0c
